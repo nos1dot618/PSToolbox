@@ -28,6 +28,22 @@ Get help for a command:
 Get-Help <Command-Name> -Full
 ```
 
+## Testing
+
+The test suite is written using Pester 5. Ensure Pester 5.0 or later is installed before running the tests.
+
+Install or update Pester:
+
+```powershell
+Install-Module Pester -Scope CurrentUser -MinimumVersion 5.0 -Force
+```
+
+Run the test suite from the project root:
+
+```powershell
+Invoke-Pester
+```
+
 ## Project Structure
 
 ```

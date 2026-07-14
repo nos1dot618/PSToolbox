@@ -14,6 +14,7 @@
         "New-Directory"
         "New-SymbolicLink"
         "Update-FileTimestamp"
+        "ConvertTo-Psd1Literal"
     )
     CmdletsToExport      = @()
     AliasesToExport      = @()
